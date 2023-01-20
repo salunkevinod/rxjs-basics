@@ -47,7 +47,6 @@ export class CancellingObservableComponent implements OnInit {
   }
 
   clearInetrval() {
-    console.log('clear interval');
     this.inervalSubs.unsubscribe();
     this.browserSubs.unsubscribe();
   }
